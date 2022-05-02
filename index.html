@@ -6,25 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js"></script>
+    <script src="./prefixfree.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>Apple history</title>
 </head>
 <body>
-    <video class="bg" autoplay="autoplay" muted>
-        <source src="./iPhone13.mp4" type="video/mp4" />
+    <video autoplay=""  muted="" id="bg-video">
+        <source src="./iPhone13.mp4" type="video/mp4">
     </video>
-    <div class="container">
+    <div class="container" id="paper-back">
         <div class="logo">
-            <p>Apple history</p>
+            <p class="text">Apple history</p>
         </div>
         <div class="navigation">
-            <div> <a href="#">Apple today</a></div>
-            <div> <a href="#">Interesting facts</a></div>
-            <div> <a href="#">History</a></div>
-            <div> <a href="#">Steve Jobs</a></div>
-            <div> <a href="#">Home</a></div>
+            <nav>
+                <nav class="skew-menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Steve Jobs</a></li>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Interesting facts</a></li>
+                        <li><a href="#">Apple today</a></li>
+                    </ul>
+                </nav>
+            </nav>
         </div>
         <div class="main"></div>
         <div class="footer"></div>
