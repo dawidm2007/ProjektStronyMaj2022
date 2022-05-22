@@ -3,3 +3,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+img {
+    margin-top: 30px;
+    width: 20%;
+    height: 20%;
+    overflow: hidden;
+}
