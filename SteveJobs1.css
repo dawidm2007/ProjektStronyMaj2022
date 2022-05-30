@@ -3,3 +3,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+p {
+    height: 30px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    font-family: Lato;
+}

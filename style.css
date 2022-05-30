@@ -103,3 +103,7 @@
     transform: skew(25deg);
     font-family: 'Lato', sans-serif;
 }
+
+.text {
+    padding-bottom: 50px;
+}
