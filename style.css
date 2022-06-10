@@ -22,6 +22,19 @@
     height: 100%;
 }
 
+#text-zegarek, #zegarek{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+    color: gray;
+    margin-right: 4px;
+    margin-top: 0;  
+}
+
+#zegarek{
+    margin-top: -20px;
+}
+
 .logo {
     position: absolute;
     z-index: 2;
